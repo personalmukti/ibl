@@ -1,0 +1,74 @@
+body {
+    background-color: azure;
+    font-family: 'Roboto Slab';
+    overflow-x: hidden;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding: 0 15px;
+    /* Sesuaikan jarak antara logo dan menu jika diperlukan */
+}
+
+.navbar-brand {
+    margin-right: auto;
+    /* Logo akan rata kiri */
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* Menu akan rata kanan */
+}
+
+.navbar {
+    transition: all 0.5;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-scrolled {
+    background-color: #333;
+    color: #fff !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
+}
+
+.navbar-scrolled .nav-link {
+    color: #fff !important;
+}
+
+/* Custom CSS for the header */
+.cover {
+    position: relative;
+    height: 100vh;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.bg-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+    /* Adjust the opacity of the background image */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+    /* Adjust the padding as needed */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
