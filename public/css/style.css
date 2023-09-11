@@ -61,6 +61,27 @@ body {
     /* Adjust the opacity of the background image */
 }
 
+.cover-half {
+    position: relative;
+    height: 25vh;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.bg-img-half {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+    /* Adjust the opacity of the background image */
+}
+
 .hero {
     position: relative;
     text-align: center;
@@ -177,7 +198,7 @@ body {
     /* Durasi dan jenis transisi */
 }
 
-.footer{
+.footer {
     background-color: #333;
     color: #fff;
 }
@@ -187,4 +208,65 @@ body {
     /* Menggunakan transform scale untuk animasi zoom in */
     transition: transform 0.3s ease;
     /* Durasi dan jenis transisi */
+}
+
+/* Styling kustom untuk hr */
+.custom-hr {
+    background-color: #fff;
+    /* Warna latar belakang putih */
+    height: 5px !important;
+    /* Ketebalan garis */
+    width: 500px;
+    /* Lebar garis */
+    margin: 10px auto;
+    /* Spasi atas dan bawah 10px, dan tengah secara horizontal */
+    border: none;
+    /* Hapus border default jika ada */
+}
+
+.custom-hr-dark {
+    background-color: #2f3082;
+    /* Warna latar belakang putih */
+    height: 5px !important;
+    /* Ketebalan garis */
+    width: 500px;
+    /* Lebar garis */
+    margin: 10px auto;
+    /* Spasi atas dan bawah 10px, dan tengah secara horizontal */
+    border: none;
+    /* Hapus border default jika ada */
+}
+
+.text-darker {
+    color: #2f3082;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.partner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 48, 130, 0.5);
+    /* Warna overlay dengan tingkat transparansi */
+    z-index: -1;
+    /* Atur z-index agar overlay ada di bawah konten */
+}
+
+.partner {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    /* Tambahkan ini */
+}
+
+.section-title {
+    color: #fff;
 }

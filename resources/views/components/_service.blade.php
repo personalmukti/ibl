@@ -2,6 +2,12 @@
     <div class="container">
         <div class="col-md-12">
             <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="section-title-dark">- Service -</h1>
+                    <hr class="custom-hr">
+                </div>
+            </div>
+            <div class="row py-5">
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-2">

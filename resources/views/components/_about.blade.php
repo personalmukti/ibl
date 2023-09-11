@@ -4,7 +4,7 @@
             <div class="card card-about">
                 <div class="card-body">
                     <div class="container-fluid d-sm-flex flex-column justify-content-center align-items-sm-center">
-                        <div class="row">
+                        <div class="row py-5">
                             <div class="col-sm-12 col-md-6">
                                 <img src="{{ asset('img/about.jpg') }}" alt="" class="img-fluid">
 
@@ -35,7 +35,7 @@
                                             and creating an efficient and effective system to be able to exceed customer
                                             expectations.</p>
                                         <br>
-                                        <p class="about-text desktop-left mobile-center"><a href="/about"
+                                        <p class="about-text desktop-left mobile-center"><a href="/about#partner"
                                                 class="btn btn-about btn-outline-primary">Read more</a></p>
                                     </div>
                                 </div>
