@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: #fff;
     font-family: 'Roboto Slab';
     overflow-x: hidden;
 }
@@ -71,4 +71,62 @@ body {
 .hero h1 {
     font-size: 3rem;
     font-weight: bold;
+}
+
+.card-about {
+    border: 0px;
+}
+
+.img-radius,
+.about-radius {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.about-glance,
+.about-text {
+    color: #2f3082;
+}
+
+/* Untuk tablet dan di atasnya */
+@media (min-width: 768px) {
+    .desktop-left {
+        text-align: left;
+    }
+
+    .mobile-center {
+        text-align: left;
+        /* Sesuaikan dengan tata letak yang Anda inginkan pada tablet ke atas */
+    }
+}
+
+/* Untuk tampilan mobile */
+@media (max-width: 767px) {
+    .desktop-left {
+        text-align: center;
+        /* Mengubah rataan menjadi tengah untuk tampilan mobile */
+    }
+
+    .mobile-center {
+        text-align: center;
+    }
+}
+
+.service {
+    background-color: #2f3082;
+    color: #fff;
+}
+
+.service-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feature-name {
+    color: #2f3082;
+}
+
+.feature-icon {
+    color: #2f3082;
+    font-size: 18px;
+    text-align: center;
 }
