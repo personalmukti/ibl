@@ -9,7 +9,7 @@
                         <div class="card-body feature-card-body">
                             <div class="row">
                                 <div class="col-12 d-flex flex-column align-items-center text-center">
-                                    <span class="features-icon"><i class="fas fa-ship fa-3x"
+                                    <span class="features-icon"><i class="fa fa-ship fa-3x"
                                             aria-hidden="true"></i></span>
                                     <hr>
                                     <p class="feature-name">Sea Freight</p>
@@ -23,7 +23,7 @@
                         <div class="card-body feature-card-body">
                             <div class="row">
                                 <div class="col-12 d-flex flex-column align-items-center text-center">
-                                    <span class="features-icon"><i class="fas fa-plane fa-3x"
+                                    <span class="features-icon"><i class="fa fa-plane fa-3x"
                                             aria-hidden="true"></i></span>
                                     <hr>
                                     <p class="feature-name">Air Freight</p>
@@ -37,8 +37,7 @@
                         <div class="card-body feature-card-body">
                             <div class="row">
                                 <div class="col-12 d-flex flex-column align-items-center text-center">
-                                    <span class="features-icon"><i class="fas fa-truck fa-3x"
-                                            aria-hidden="true"></i></span>
+                                    <span class="features-icon"><i class="fa-solid fa-truck-fast fa-3x"></i></span>
                                     <hr>
                                     <p class="feature-name">Inland Transportation</p>
                                 </div>
@@ -51,7 +50,7 @@
                         <div class="card-body feature-card-body">
                             <div class="row">
                                 <div class="col-12 d-flex flex-column align-items-center text-center">
-                                    <span class="features-icon"><i class="fas fa-cubes fa-3x"
+                                    <span class="features-icon"><i class="fa fa-cubes fa-3x"
                                             aria-hidden="true"></i></span>
                                     <hr>
                                     <p class="feature-name">Reefer Container</p>
@@ -65,7 +64,7 @@
                         <div class="card-body feature-card-body">
                             <div class="row">
                                 <div class="col-12 d-flex flex-column align-items-center text-center">
-                                    <span class="features-icon"><i class="fas fa-file fa-3x"
+                                    <span class="features-icon"><i class="fa fa-file fa-3x"
                                             aria-hidden="true"></i></span>
                                     <hr>
                                     <p class="feature-name">Documentation</p>

@@ -8,7 +8,10 @@
     <div class="row">
         <div class="col-12 text-center">
             <p class="text-center">
-                Copyright &copy; PT. Interbenua Logistindo. All right reserved.
+                <img src="/img/logo.png" alt="logo" width="100" height="100">
+                <hr>
+                
+                <p>Copyright &copy; PT. Interbenua Logistindo. All right reserved.</p>
             </p>
         </div>
     </div>

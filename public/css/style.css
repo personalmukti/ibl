@@ -119,14 +119,72 @@ body {
 .service-card {
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 200px;
 }
 
 .feature-name {
     color: #2f3082;
 }
 
-.feature-icon {
+.features-icon {
     color: #2f3082;
     font-size: 18px;
     text-align: center;
+}
+
+/* Styling untuk Service List */
+.service-list {
+    position: absolute;
+    top: 18%;
+    /* Sesuaikan nilai -100px dengan tinggi navbar dan margin yang diperlukan */
+    right: 5%;
+    /* Samakan dengan posisi kanan button email */
+    text-align: right;
+    /* Untuk sejajarkan ke kanan */
+    color: #2f3082;
+    /* Warna teks yang sesuai */
+}
+
+.service-title {
+    font-size: 18px;
+    /* Ukuran font judul */
+    font-weight: bold;
+    /* Tebal font judul */
+}
+
+.service-items {
+    list-style-type: none;
+    /* Jenis marker list (bisa diganti sesuai kebutuhan) */
+    padding-left: 20px;
+    /* Jarak dari kiri */
+}
+
+.service-items li {
+    font-size: 14px;
+    /* Ukuran font item list */
+    margin: 5px 0;
+    /* Jarak antara item list */
+}
+
+.service-card {
+    border-radius: 0px !important;
+}
+
+.bumpcol:hover {
+    transform: scale(1.05);
+    /* Menggunakan transform scale untuk animasi zoom in */
+    transition: transform 0.3s ease;
+    /* Durasi dan jenis transisi */
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+}
+
+.feature-card-body:hover {
+    transform: scale(1.05);
+    /* Menggunakan transform scale untuk animasi zoom in */
+    transition: transform 0.3s ease;
+    /* Durasi dan jenis transisi */
 }
