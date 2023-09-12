@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick.css') }}" />
@@ -37,19 +39,11 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
     <script type="text/javascript" src="{{ asset('vendor/slick.min.js') }}"></script>
 
-    <script type="text/javascript">
-        $(document).on('ready', function() {
-
-            $(".regular").slick({
-                dots: true,
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 3
-            });
-        });
-    </script>
+    <script src="{{ asset('js/custom.navbar.js') }}"></script>
 </body>
 
 </html>

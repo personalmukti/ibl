@@ -10,8 +10,7 @@
             <div class="container d-md-flex flex-row justify-content-center align-items-center">
                 <div class="col-md-3 mx-2">
                     <div class="card">
-                        <div class="card-body text-dark">
-
+                        <div class="card-body text-darker text-center">
                             Algeria<br>
                             Angola<br>
                             Argentina<br>
@@ -43,7 +42,7 @@
                 </div>
                 <div class="col-md-3 mx-2">
                     <div class="card">
-                        <div class="card-body text-dark">
+                        <div class="card-body text-darker text-center">
 
                             El Salvador<br>
                             Estonia<br>
@@ -76,7 +75,7 @@
                 </div>
                 <div class="col-md-3 mx-2">
                     <div class="card">
-                        <div class="card-body text-dark">
+                        <div class="card-body text-darker text-center">
 
                             Latvia<br>
                             Lebanon<br>
@@ -109,8 +108,7 @@
                 </div>
                 <div class="col-md-3 mx-2">
                     <div class="card">
-                        <div class="card-body text-dark">
-
+                        <div class="card-body text-darker text-center">
                             Senegal<br>
                             Singapore<br>
                             Slovak Republic<br>

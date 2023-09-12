@@ -35,7 +35,7 @@
                                             and creating an efficient and effective system to be able to exceed customer
                                             expectations.</p>
                                         <br>
-                                        <p class="about-text desktop-left mobile-center"><a href="/about#partner"
+                                        <p class="about-text desktop-left mobile-center"><a href="/about#about"
                                                 class="btn btn-about btn-outline-primary">Read more</a></p>
                                     </div>
                                 </div>
