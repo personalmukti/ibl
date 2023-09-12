@@ -10,7 +10,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto pt-3">
                         <li class="nav-item">
                             @if ($title === 'Home')
                                 <a class="nav-link active" href="/">Home</a>

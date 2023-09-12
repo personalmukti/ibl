@@ -21,15 +21,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
-
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/slick-theme.css') }}" />
 </head>
 
 <body>
     @include('components.navbar')
 
+
     @yield('content')
+
 
     @include('components.footer')
 
@@ -40,8 +39,6 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-    <script type="text/javascript" src="{{ asset('vendor/slick.min.js') }}"></script>
 
     <script src="{{ asset('js/custom.navbar.js') }}"></script>
 </body>

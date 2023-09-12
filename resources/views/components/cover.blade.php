@@ -1,7 +1,7 @@
-<header class="cover">
+<header class="cover" style="position: relative;">
     <img src="{{ asset('img/freighter.jpg') }}" alt="bg" class="bg-img">
-    <div class="container-fluid hero d-flex flex-column justify-content-between"">
-        <div class="row">
+    <div class="container-fluid hero d-flex flex-column justify-content-between">
+        <div class="row top-line" style="position: absolute; top: 40%; width: 100%;">
             <div class="col-md-6 text-start px-5">
                 <h1 class="text-darker">PT. Interbenua Logistindo</h1>
             </div>
@@ -16,13 +16,14 @@
                 </ul>
             </div>
         </div>
-        <div class="row bottom-line" style="position: absolute; bottom: 5%; width: 100%;">
-            <!-- Ganti "bottom: 5%;" dengan tinggi yang Anda inginkan (misalnya, 5% dari bawah) -->
+    </div>
+    <div class="container-fluid hero d-flex flex-column justify-content-between">
+        <div class="row bottom-line" style="position: absolute; bottom: 5% !important; width: 100%;">
             <div class="col-md-6 text-start px-5">
-                <h3 class="text-darker">INTERNATIONAL FREIGHT FORWARDING</h3> <!-- Ganti </h1> dengan </h3> -->
+                <h3 class="text-darker">INTERNATIONAL FREIGHT FORWARDING</h3>
             </div>
             <div class="col-md-6 text-end">
-                <div class="text-end px-3"> <!-- Menambahkan div untuk mengatur tombol dengan rata kanan -->
+                <div class="text-end px-3">
                     <button class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>
                         Whatsapp</button>
                     <button class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>
