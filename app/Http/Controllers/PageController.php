@@ -11,6 +11,11 @@ class PageController extends Controller
         $title = 'Home';
         return view('index', compact('title'));
     }
+    public function home()
+    {
+        $title = 'Home';
+        return view('home', compact('title'));
+    }
 
     public function about()
     {

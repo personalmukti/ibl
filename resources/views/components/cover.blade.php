@@ -1,7 +1,7 @@
 <header class="cover" style="position: relative;">
     <img src="{{ asset('img/freighter.jpg') }}" alt="bg" class="bg-img">
     <div class="container-fluid hero d-flex flex-column justify-content-between">
-        <div class="row top-line" style="position: absolute; top: 40%; width: 100%;">
+        <div class="row top-line">
             <div class="col-md-6 text-start px-5">
                 <h1 class="text-darker">PT. Interbenua Logistindo</h1>
             </div>
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="container-fluid hero d-flex flex-column justify-content-between">
-        <div class="row bottom-line" style="position: absolute; bottom: 5% !important; width: 100%;">
+        <div class="row bottom-line">
             <div class="col-md-6 text-start px-5">
                 <h3 class="text-darker">INTERNATIONAL FREIGHT FORWARDING</h3>
             </div>
