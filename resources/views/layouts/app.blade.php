@@ -26,9 +26,9 @@
 <body>
     @include('components.navbar')
 
-
-    @yield('content')
-
+    <main>
+        @yield('content')
+    </main>
 
     @include('components.footer')
 
