@@ -24,12 +24,95 @@
 
 <body>
     <!-- Navbar -->
-    @include('partials._navbar')
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="border-bottom: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="{{ asset('img/logo.png') }}" alt="ibl" width="80" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('homepage.about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('homepage.service') }}">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('homepage.contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
     <!-- Main Content -->
-    <main>
-        @yield('content')
-    </main>
+        <header class="cover d-flex justify-content-center align-items-center">
+            <div class="bg-img" style="background-image: url('{{ asset('img/freighter.jpg') }}');"></div>
+            <div class="container-fluid mx-5">
+                <div class="row">
+                    <div class="col-md-6 text-start position-absolute top-0 left-0" style="margin-top: 120px; margin-left: 20px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="cover-company">PT. Interbenua Logistindo</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="{{ asset('img/gallery/gallery1.jpg') }}" alt="" width="500" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-socmed" data-bs-toggle="modal" data-bs-target="#modalId">
+                                    About Us
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-end position-absolute bottom-0 end-0"
+                        style="margin-bottom: 20px; margin-right: 20px;">
+                        <a href="https://api.whatsapp.com/send?phone=123456789" class="btn btn-socmed">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
+                        </a>
+                        <a href="mailto:email@example.com" class="btn btn-socmed">
+                            <i class="far fa-envelope" aria-hidden="true"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="video-container">
+                                <video id="modalVideo" width="100%" height="auto" controls autoplay muted>
+                                    <source src="{{ asset('video/iblvideo.mp4') }}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
 
     <!-- Bootstrap JS and other scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -48,6 +131,21 @@
             }
         });
     </script>
+
+<script>
+    // Ambil elemen modal
+    var modal = new bootstrap.Modal(document.getElementById('modalId'));
+
+    // Tambahkan event listener untuk saat modal terbuka
+    modal._element.addEventListener('shown.bs.modal', function () {
+        // Ambil elemen video
+        var modalVideo = document.getElementById("modalVideo");
+
+        // Putar video secara otomatis saat modal terbuka
+        modalVideo.play();
+    });
+</script>
+
 </body>
 
 </html>
