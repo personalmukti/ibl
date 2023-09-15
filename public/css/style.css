@@ -116,3 +116,9 @@ body {
 .collapse-img {
     padding: 10px 10px 10px 10px;
 }
+
+@media (max-width: 768px) {
+    .company-name, .collapse-img, .about-btn {
+        align-items: center;
+    }
+}
