@@ -24,34 +24,46 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="border-bottom: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-                <img src="{{ asset('img/logo.png') }}" alt="ibl" width="80" height="60">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('homepage.about') }}">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('homepage.service') }}">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('homepage.contact') }}">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top border-bottom shadow" style="max-width: 100%;">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/">
+            <img src="{{ asset('img/logo-lg.png') }}" alt="ibl" width="100" height="70">
+        </a>
+
+        <!-- Nama Perusahaan dan Tagline -->
+        <div class="d-none d-md-flex flex-column align-items-md-start ms-2">
+            <span class="navbar-text" style="font-weight: bold; text-transform: uppercase; color: black;">PT. Interbenua Logistindo</span>
+            <span class="navbar-text" style="font-style: italic; font-size: smaller; color: black;">Member of IFF (International Freight Forwarder Fellowship)</span>
         </div>
-    </nav>
-    
+
+        <!-- Hamburger Menu untuk Mobile -->
+        <button class="navbar-toggler order-md-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: black;">
+            <span class="navbar-toggler-icon" style="color: black;"></span>
+        </button>
+
+        <!-- Daftar Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('homepage.about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('homepage.service') }}">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('homepage.contact') }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
 
     <!-- Main Content -->
         <header class="cover d-flex justify-content-center align-items-center">
@@ -111,25 +123,13 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
 
     <!-- Bootstrap JS and other scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-    <script>
-        const navbar = document.querySelector('.navbar');
-
-        window.addEventListener('scroll', function() {
-            if (window.scrollY >= 56) {
-                navbar.classList.add('navbar-scrolled');
-            } else {
-                navbar.classList.remove('navbar-scrolled');
-            }
-        });
     </script>
 
 <script>
