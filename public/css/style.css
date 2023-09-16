@@ -190,13 +190,12 @@ body {
     border: none;
     /* Hapus border default jika ada */
 }
-/*
+
 .service-card {
     box-sizing: border-box;
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-    backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
     cursor: pointer;
@@ -204,7 +203,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    user-select: none;
     font-weight: bolder;
     color: black;
 }
@@ -216,7 +214,7 @@ body {
 
 .service-card:active {
     transform: scale(0.95) rotateZ(1.7deg);
-} */
+}
 
 .no-decor{
     text-decoration: none;

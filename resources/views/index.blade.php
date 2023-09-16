@@ -9,22 +9,27 @@
             <div class="container-fluid cover-hero">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 text-center text-md-start">
-                        <div class="row">
-                            <div class="col">
-                                <img src="{{ asset('img/colapse1.jpg') }}" alt="" class="img-fluid collapse-img">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col">
+                                    <h1 class="company-name display-1">PT. INTERBENUA LOGISTINDO</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-socmed about-btn" data-bs-toggle="modal"
+                                        data-bs-target="#modalId">
+                                        About Us
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <h1 class="company-name">PT. INTERBENUA LOGISTINDO</h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <button type="button" class="btn btn-socmed about-btn" data-bs-toggle="modal"
-                                    data-bs-target="#modalId">
-                                    About Us
-                                </button>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="{{ asset('img/colapse1.jpg') }}" alt=""
+                                        class="img-fluid collapse-img">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,6 @@
         <div class="container">
             <div class="row">
                 <h2 class="text-center">About Us</h2>
-                <hr class="custom-hr-dark">
             </div>
             <div class="row py-3">
                 <div class="card card-noboreder">
@@ -19,7 +18,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-md-6 py-2">
-                                    <img src="{{ asset('img/colapse1.jpg') }}" alt="about-us" class="img-fluid">
+                                    <img src="{{ asset('img/colapse2.jpg') }}" alt="about-us" class="img-fluid">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="row py-2">
