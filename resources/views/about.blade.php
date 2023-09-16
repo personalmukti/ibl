@@ -2,16 +2,19 @@
 
 @section('content')
     @include('partials._navgrad')
+
     <header class="cover-half">
+        <img src="{{ asset('img/banner.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
     </header>
 
     <div class="about-section">
         <div class="container">
             <div class="row">
                 <h2 class="text-center">About Us</h2>
+                <hr class="custom-hr-dark">
             </div>
             <div class="row py-3">
-                <div class="card">
+                <div class="card card-noboreder">
                     <div class="card-body">
                         <div class="col-12">
                             <div class="row">
@@ -49,7 +52,7 @@
                 </div>
             </div>
             <div class="row py-1">
-                <div class="card">
+                <div class="card card-noboreder">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
@@ -65,25 +68,26 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- Modal Video -->
-        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false"
-            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="video-container">
-                                <video id="modalVideo" width="100%" height="auto" controls autoplay muted>
-                                    <source src="{{ asset('video/iblvideo.mp4') }}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+    <!-- Modal Video -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="video-container">
+                            <video id="modalVideo" width="100%" height="auto" controls autoplay muted>
+                                <source src="{{ asset('video/iblvideo.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end Modal Video -->
-    @endsection
+    </div>
+    <!-- end Modal Video -->
+@endsection

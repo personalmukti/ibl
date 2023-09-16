@@ -130,7 +130,7 @@ body {
 
 .cover-half {
     position: relative;
-    height: 20vh;
+    height: 18vh;
     /* Adjust the height as needed */
     background-size: cover;
     background-position: center;
@@ -157,6 +157,79 @@ body {
     color: transparent;
 }
 
-.card{
+.card-noboreder{
     border: none !important;
+}
+
+.service-card {
+    height: 100%;
+}
+
+.custom-hr {
+    background-color: #fff;
+    /* Warna latar belakang putih */
+    height: 5px !important;
+    /* Ketebalan garis */
+    width: 500px;
+    /* Lebar garis */
+    margin: 10px auto;
+    /* Spasi atas dan bawah 10px, dan tengah secara horizontal */
+    border: none;
+    /* Hapus border default jika ada */
+}
+
+.custom-hr-dark {
+    background-color: #2f3082;
+    /* Warna latar belakang putih */
+    height: 5px !important;
+    /* Ketebalan garis */
+    width: 500px;
+    /* Lebar garis */
+    margin: 10px auto;
+    /* Spasi atas dan bawah 10px, dan tengah secara horizontal */
+    border: none;
+    /* Hapus border default jika ada */
+}
+
+.card {
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.no-decor{
+    text-decoration: none;
+    border: none;
+    background-color: none;
+}
+
+.about-section,
+.service-section,
+.contact-section{
+    width: 100vw !important;
+}
+
+.address{
+    font-size: 12px;
 }
