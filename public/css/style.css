@@ -113,6 +113,11 @@ body {
     align-items: end;
 }
 
+.socmed-btn{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+}
 .collapse-img {
     padding: 10px 10px 10px 10px;
 }
@@ -121,4 +126,37 @@ body {
     .company-name, .collapse-img, .about-btn {
         align-items: center;
     }
+}
+
+.cover-half {
+    position: relative;
+    height: 20vh;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.bg-img-half {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(1);
+    background-repeat: no-repeat;
+    /* Adjust the opacity of the background image */
+}
+
+.nav-gradient{
+    background: linear-gradient(to right, #a3b4bb, #d0dcdc) !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.card{
+    border: none !important;
 }

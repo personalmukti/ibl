@@ -1,48 +1,48 @@
-
-
-    <!-- Main Content -->
-        <header class="cover d-flex justify-content-center align-items-center">
-            <div class="bg-img" style="background-image: url('{{ asset('img/freighter.jpg') }}');"></div>
-            <div class="container-fluid mx-5">
+<div class="header">
+        <div class="col-12">
+            <img src="{{ asset('img/freighter.jpg') }}" class="bg-img">
+            <div class="container-fluid cover-hero">
                 <div class="row">
-                    <div class="col-md-6 text-start position-absolute top-0 left-0" style="margin-top: 120px; margin-left: 20px;">
+                    <div class="col-sm-12 col-md-6 text-center text-md-start">
                         <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="cover-company">PT. Interbenua Logistindo</h1>
+                            <div class="col">
+                                <h1 class="company-name">PT. Interbenua Logistindo</h1>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="{{ asset('img/gallery/gallery1.jpg') }}" alt="" width="500" height="300">
-                                    </div>
-                                </div>
+                            <div class="col">
+                                <img src="{{ asset('img/colapse1.jpg') }}" alt="" class="img-fluid collapse-img">
                             </div>
                         </div>
-                        <div class="row py-2">
-                            <div class="col-md-12">
-                                <button type="button" class="btn btn-socmed" data-bs-toggle="modal" data-bs-target="#modalId">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-socmed about-btn" data-bs-toggle="modal" data-bs-target="#modalId">
                                     About Us
-                                  </button>
+                                </button>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 text-end position-absolute bottom-0 end-0"
-                        style="margin-bottom: 20px; margin-right: 20px;">
-                        <a href="https://api.whatsapp.com/send?phone=123456789" class="btn btn-socmed">
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
-                        </a>
-                        <a href="mailto:email@example.com" class="btn btn-socmed">
-                            <i class="far fa-envelope" aria-hidden="true"></i> Email
-                        </a>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 position-relative" style="margin-bottom: 20px; margin-right: 20px; padding-top: 6%;">
+                        <div class="position-absolute bottom-0 end-0 d-flex justify-content-center justify-content-md-end">
+                            <a href="https://api.whatsapp.com/send?phone=123456789" class="btn btn-socmed me-2 me-md-0 mb-2 mb-md-0">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
+                            </a>
+                            <a href="mailto:email@example.com" class="btn btn-socmed">
+                                <i class="far fa-envelope" aria-hidden="true"></i> Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </header>
-        <!-- Modal Body -->
-        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        </div>
+       </div>
+    <!-- End Main -->
+
+    <!-- Modal Video -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -58,3 +58,4 @@
                 </div>
             </div>
         </div>
+    <!-- end Modal Video -->
