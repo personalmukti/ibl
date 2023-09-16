@@ -191,7 +191,7 @@ body {
     /* Hapus border default jika ada */
 }
 
-.card {
+.service-card {
     box-sizing: border-box;
     background: rgba(217, 217, 217, 0.58);
     border: 1px solid white;
@@ -209,12 +209,12 @@ body {
     color: black;
 }
 
-.card:hover {
+.service-card:hover {
     border: 1px solid black;
     transform: scale(1.05);
 }
 
-.card:active {
+.service-card:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
 

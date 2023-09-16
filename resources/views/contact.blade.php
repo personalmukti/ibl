@@ -9,6 +9,7 @@
     <div class="row">
         <div class="col-12">
             <h2 class="text-center">Contact</h2>
+            <hr class="custom-hr-dark">
         </div>
     </div>
 
