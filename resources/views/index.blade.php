@@ -8,6 +8,4 @@
         @include('partials._altcover')
     </div>
     <!-- End Main -->
-
-    
 @endsection

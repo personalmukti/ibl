@@ -108,14 +108,12 @@
                 <!-- Tambahkan class 'justify-content-center' untuk mengatur konten ke tengah -->
                 <div class="col-md-6 text-center">
                     <!-- Tambahkan class 'text-center' untuk mengatur konten ke tengah secara horizontal -->
-                    <img src="{{ asset('img/partner.png') }}" alt="partners" class="img-fluid mx-auto">
+                    <img src="{{ asset('img/partner.png') }}" alt="partners" class="img-fluid mx-auto pb-2">
                     <!-- Tambahkan 'mx-auto' pada gambar -->
                 </div>
             </div>
         </div>
 
     </div>
-
-
     @include('partials._modal')
 @endsection
