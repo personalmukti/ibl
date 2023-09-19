@@ -4,10 +4,10 @@
     @include('partials._navgrad')
 
     <header class="cover-half">
-        <img src="{{ asset('img/banner.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
+        <img src="{{ asset('img/banner-shading.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
     </header>
 
-    <div class="about-section">
+    <div class="about-section py-5">
         <div class="container">
             <div class="row">
                 <h2 class="text-center">About Us</h2>
@@ -18,7 +18,7 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-md-6 py-2">
-                                    <img src="{{ asset('img/colapse2.jpg') }}" alt="about-us" class="img-fluid">
+                                    <img src="{{ asset('img/colapse1.jpg') }}" alt="about-us" class="img-fluid">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="row py-2">

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top border-bottom shadow nav-gradient" style="max-width: 100%;">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="max-width: 100%;">
     <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
