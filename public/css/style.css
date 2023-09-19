@@ -122,9 +122,15 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+.company-name{
+    font-weight: bolder;
+
+}
+
 @media (max-width: 768px) {
     .company-name, .collapse-img, .about-btn {
         align-items: center;
+        color: #fff !important;
     }
 }
 
@@ -232,4 +238,57 @@ body {
     font-size: 12px;
 }
 
-/* Belum Beres */
+.caro-img{
+    filter: brightness(0.6) !important;
+}
+
+@media (max-width: 767px) {
+
+    /* Untuk tampilan mobile, elemen akan menjadi rata tengah */
+    .mobile-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .btn-whatsapp,
+    .btn-email {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        background-color: #0574db;
+        color: #fff;
+        border: #0574db solid 1px;
+    }
+}
+
+.btn-whatsapp,
+.btn-email {
+    background-color: #0574db;
+    color: #fff;
+    border: #0574db solid 1px;
+    width: 150px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .connect {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+    }
+
+    .btn-whatsapp,
+    .btn-email {
+        flex-shrink: 0;
+    }
+}
+
+.hero-part{
+    margin-top: 180px;
+}
+

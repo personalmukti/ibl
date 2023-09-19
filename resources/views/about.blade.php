@@ -69,16 +69,15 @@
         </div>
     </div>
 
-
     <!-- Modal Video -->
     <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="video-container">
-                            <video id="modalVideo" width="100%" height="auto" controls autoplay muted>
+                            <video id="modalVideo" width="100%" height="auto" controls>
                                 <source src="{{ asset('video/iblvideo.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>

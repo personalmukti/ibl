@@ -15,7 +15,7 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('homepage.index');
-Route::get('/home', [PageController::class, 'home'])->name('homepage.home');
+Route::get('/alternative', [PageController::class, 'home'])->name('homepage.home');
 Route::get('/about', [PageController::class, 'about'])->name('homepage.about');
 Route::get('/service', [PageController::class, 'service'])->name('homepage.service');
 Route::get('/contact', [PageController::class, 'contact'])->name('homepage.contact');
