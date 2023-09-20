@@ -96,23 +96,20 @@
             </div>
         </div>
 
+        <div class="row py-2">
+            <div class="col-12 text-center">
+                <h2 class="text-center">Partnership</h2>
+                <span>Partnered with over 100 agents worldwide, our coverage reaches all around the globe.
+                </span>
+            </div>
+        </div>
         <div class="container">
-            <div class="row py-2">
-                <div class="col-12 text-center">
-                    <div class="position-relative">
-                        <img src="{{ asset('img/partner.png') }}" alt="partners" class="img-fluid mx-auto background-image"
-                            style="max-width: 61%; height: auto;">
-                        <div class="text-over-image">
-                            <h2 class="text-center partner-color">Partnership</h2>
-                            <span class="span-over-image partner-color">Partnered with over 100 agents worldwide, our
-                                coverage reaches all
-                                around the globe.</span>
-                        </div>
-                    </div>
+            <div class="row py-1 justify-content-center">
+                <div class="col-md-6 text-center">
+                    <img src="{{ asset('img/partner.png') }}" alt="partners" class="img-fluid mx-auto">
                 </div>
             </div>
         </div>
-
 
     </div>
     @include('partials._modal')

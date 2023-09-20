@@ -18,7 +18,7 @@ body {
 
 .nav-link {
     margin-left: auto;
-    color: #000 !important;
+    color: #fff !important;
     font-weight: bold;
     padding-top: 5px;
 }
@@ -168,7 +168,7 @@ body {
 }
 
 .service-card {
-    height: 100%;
+    height: 175px;
 }
 
 .custom-hr {
@@ -292,3 +292,28 @@ body {
     margin-top: 180px;
 }
 
+.background-image {
+    position: relative;
+    z-index: -1;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* Warna teks sesuai kebutuhan Anda */
+}
+
+.partner-color {
+    color: #000;
+    /* Warna isi teks
+    -webkit-text-stroke: 0.5px #fff;*/
+    /* Stroke teks pada browser berbasis Webkit (Chrome, Safari, dll.) */
+}

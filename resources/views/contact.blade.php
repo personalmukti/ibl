@@ -4,10 +4,10 @@
     @include('partials._navgrad')
 
     <header class="cover-half">
-        <img src="{{ asset('img/banner.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
+        <img src="{{ asset('img/banner-shading.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
     </header>
 
-    <div class="about-section">
+    <div class="about-section py-4">
         <div class="container">
             <div class="row">
                 <h2 class="text-center">Contact</h2>

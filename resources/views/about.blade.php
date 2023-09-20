@@ -7,7 +7,7 @@
         <img src="{{ asset('img/banner-shading.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
     </header>
 
-    <div class="about-section py-5">
+    <div class="about-section py-4">
         <div class="container">
             <div class="row">
                 <h2 class="text-center">About Us</h2>
@@ -36,6 +36,12 @@
                                                 constantly developing strategies and creating an efficient and effective
                                                 system to be able to exceed customer expectations.
                                             </p>
+                                            <br>
+                                            <h3 class="about-title">Vision</h3>
+                                            <p>To become most reliable global freight forwarding company in Indonesia.</p>
+                                            <br>
+                                            <h3 class="about-title">Mission</h3>
+                                            <p>To deliver service with care.</p>
                                             <p>
                                                 <button type="button" class="btn btn-socmed about-btn"
                                                     data-bs-toggle="modal" data-bs-target="#modalId">
@@ -45,22 +51,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row py-1">
-                <div class="card card-noboreder">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3 class="about-title">Vision</h3>
-                                <p>To become most reliable global freight forwarding company in Indonesia.</p>
-                            </div>
-                            <div class="col-md-6">
-                                <h3 class="about-title">Mission</h3>
-                                <p>To deliver service with care.</p>
                             </div>
                         </div>
                     </div>
