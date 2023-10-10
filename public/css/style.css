@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
 }
 
 .navbar {
@@ -14,17 +14,6 @@ body {
 
 .navbar-brand {
     margin-right: auto;
-}
-
-.nav-link {
-    margin-left: auto;
-    color: #fff !important;
-    font-weight: bold;
-    padding-top: 5px;
-}
-
-.navbar-scrolled .nav-link {
-    color: #fff !important;
 }
 
 .navbar-toggler-icon {
@@ -92,14 +81,14 @@ body {
     height: 100%;
 }
 
-.navbrand-name, .navbrand-tagline {
+.navbrand-name,
+.navbrand-tagline {
     color: #000;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-size: 18px;
     margin-left: 25px;
     font-weight: bold;
 }
-
 
 .cover-hero {
     position: relative;
@@ -113,7 +102,7 @@ body {
     align-items: end;
 }
 
-.socmed-btn{
+.socmed-btn {
     margin-left: 5px;
     margin-right: 5px;
     padding-right: 20px;
@@ -122,13 +111,14 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-.company-name{
+.company-name {
     font-weight: bolder;
-
 }
 
 @media (max-width: 768px) {
-    .company-name, .collapse-img, .about-btn {
+    .company-name,
+    .collapse-img,
+    .about-btn {
         align-items: center;
         color: #fff !important;
     }
@@ -156,14 +146,14 @@ body {
     /* Adjust the opacity of the background image */
 }
 
-.nav-gradient{
+.nav-gradient {
     background: linear-gradient(to right, #a3b4bb, #d0dcdc) !important;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 
-.card-noboreder{
+.card-noboreder {
     border: none !important;
 }
 
@@ -222,7 +212,7 @@ body {
     transform: scale(0.95) rotateZ(1.7deg);
 }
 
-.no-decor{
+.no-decor {
     text-decoration: none;
     border: none;
     background-color: none;
@@ -230,20 +220,19 @@ body {
 
 .about-section,
 .service-section,
-.contact-section{
+.contact-section {
     width: 100vw !important;
 }
 
-.address{
+.address {
     font-size: 12px;
 }
 
-.caro-img{
+.caro-img {
     filter: brightness(0.6) !important;
 }
 
 @media (max-width: 767px) {
-
     /* Untuk tampilan mobile, elemen akan menjadi rata tengah */
     .mobile-center {
         text-align: center;
@@ -251,7 +240,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
     .btn-whatsapp,
     .btn-email {
         text-align: center;
@@ -288,7 +276,7 @@ body {
     }
 }
 
-.hero-part{
+.hero-part {
     margin-top: 180px;
 }
 
@@ -316,4 +304,50 @@ body {
     /* Warna isi teks
     -webkit-text-stroke: 0.5px #fff;*/
     /* Stroke teks pada browser berbasis Webkit (Chrome, Safari, dll.) */
+}
+
+.glass-nav {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.05)
+    );
+    backdrop-filter: blur(5px); /* Efek blur pada latar belakang navbar */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.glass-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.glass-nav li {
+    margin: 0 10px;
+}
+
+.glass-nav a {
+    text-decoration: none;
+    color: #000 !important;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.glass-nav a:hover {
+    color: #fff !important; /* Warna teks saat hover */
+}
+
+.modal-content {
+    background: rgba(
+        255,
+        255,
+        255,
+        0.8
+    ); /* Warna latar belakang dengan opacity */
+    backdrop-filter: blur(10px); /* Efek blur pada latar belakang modal */
+}
+
+.collapse-img {
+    border-radius: 0px 50px 0px 50px;
 }

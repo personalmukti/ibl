@@ -4,6 +4,4 @@
     @include('partials._hero')
 
     @include('partials._connect')
-
-    @include('partials._modal')
 </div>
