@@ -4,116 +4,108 @@
     @include('partials._navgrad')
 
     <header class="cover-half">
-        <img src="{{ asset('img/banner-shading.jpg') }}" alt="bg" class="bg-img-half" id="bghalf">
+        
     </header>
 
-    <div class="service-section py-4">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-center">Services</h2>
-            </div>
-        </div>
-        <div class="container d-flex flex-row justify-content-md-center">
-            <div class="row py-3">
-                <div class="col-md-1 col-sm-12"></div>
-                <div class="col-md-2 col-sm-12 py-1">
-                    <a class="no-decor" data-bs-toggle="modal" data-bs-target="#seaFreight">
-                        <div class="card card-bordered service-card">
-                            <div class="card-body">
-                                <div class="col text-center py-3 px-2 py-3 px-2">
-                                    <p class="py-2 px-2">
-                                        <span class="icon-color"><i class="fa fa-ship fa-3x" aria-hidden="true"></i></span>
-                                        <br>
-                                    <h6 class="card-title">Sea Freight</h6>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-12 py-1">
-                    <a class="no-decor" data-bs-toggle="modal" data-bs-target="#airFreight">
-                        <div class="card card-bordered service-card">
-                            <div class="card-body">
-                                <div class="col text-center py-3 px-2">
-                                    <p class="py-2 px-2">
-                                        <span class="icon-color"><i class="fa fa-plane fa-3x" aria-hidden="true"></i></span>
-                                        <br>
-                                    <h6 class="card-title">Air Freight</h6>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-12 py-1">
-                    <a class="no-decor" data-bs-toggle="modal" data-bs-target="#inlandFreight">
-                        <div class="card card-bordered service-card">
-                            <div class="card-body">
-                                <div class="col text-center py-3 px-2">
-                                    <p class="py-2 px-2">
-                                        <span class="icon-color"><i class="fa fa-truck-fast fa-3x"
-                                                aria-hidden="true"></i></span>
-                                        <br>
-                                    <h6 class="card-title">Inland Transportation</h6>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-12 py-1">
-                    <a class="no-decor" data-bs-toggle="modal" data-bs-target="#reeferFreight">
-                        <div class="card card-bordered service-card">
-                            <div class="card-body">
-                                <div class="col text-center py-3 px-2">
-                                    <p class="py-2 px-2">
-                                        <span class="icon-color"><i class="fa fa-cube fa-3x" aria-hidden="true"></i></span>
-                                        <br>
-                                    <h6 class="card-title">Reefer Service</h6>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-12 py-1">
-                    <a class="no-decor" data-bs-toggle="modal" data-bs-target="#documentFreight">
-                        <div class="card card-bordered service-card">
-                            <div class="card-body">
-                                <div class="col text-center py-3 px-2">
-                                    <p class="py-2 px-2">
-                                        <span class="icon-color"><i class="fa fa-file fa-3x" aria-hidden="true"></i></span>
-                                        <br>
-                                    <h6 class="card-title">Documentation</h6>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-1 col-sm-12"></div>
-            </div>
-        </div>
-
+    <div class="about-section">
         <div class="container">
-            <div class="row py-2">
-                <div class="col-12 text-center">
-                    <div class="position-relative">
-                        <img src="{{ asset('img/partner.png') }}" alt="partners" class="img-fluid mx-auto background-image"
-                            style="max-width: 61%; height: auto;">
-                        <div class="text-over-image">
-                            <h2 class="text-center partner-color">Partnership</h2>
-                            <span class="span-over-image partner-color">Partnered with over 100 agents worldwide, our
-                                coverage reaches all
-                                around the globe.</span>
+            <div class="row">
+                <h2 class="text-center">Service</h2>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-2">
+                    <div class="card card-noboreder">
+                        <div class="card-body">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="no-decor" data-bs-toggle="modal" data-bs-target="#seaFreight">
+                                        <div class="card service-card my-1">
+                                            <div class="card-body text-center">
+                                                <img src="{{ asset('img/icons/ship.png') }}" alt="ship-icons" class="service-icon">
+                                                <br>
+                                                Sea Freight
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="no-decor" data-bs-toggle="modal" data-bs-target="#airFreight">
+                                        <div class="card service-card my-1">
+                                            <div class="card-body text-center">
+                                                <img src="{{ asset('img/icons/plane.png') }}" alt="ship-icons" class="service-icon">
+                                                <br>
+                                                Air Freight
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">    
+                                    <div class="col-md-12">
+                                        <a class="no-decor" data-bs-toggle="modal" data-bs-target="#inlandFreight">
+                                        <div class="card service-card my-1">
+                                            <div class="card-body text-center">
+                                                <img src="{{ asset('img/icons/truck.png') }}" alt="ship-icons" class="service-icon">
+                                                <br>
+                                                Inland Transport
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="no-decor" data-bs-toggle="modal" data-bs-target="#reeferFreight">
+                                        <div class="card service-card my-1">
+                                            <div class="card-body text-center">
+                                                <img src="{{ asset('img/icons/reefer.png') }}" alt="ship-icons" class="service-icon">
+                                                <br>
+                                                Reefer Service
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="no-decor" data-bs-toggle="modal" data-bs-target="#documentFreight">
+                                        <div class="card service-card my-1">
+                                            <div class="card-body text-center">
+                                                <img src="{{ asset('img/icons/document.png') }}" alt="ship-icons" class="service-icon">
+                                                <br>
+                                                Documentation
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                    <div class="card card-noboreder">
+                        <div class="card-body">
+                            <div class="col-12 pt-4">
+                                <div class="row align-items-center">
+                                    <div class="col-md-12 text-center" style="position: relative;">
+                                        <img src="{{ asset('img/partner.png') }}" alt="partner" class="img-fluid" style="width: 100%; height: auto; z-index: 1;">
+                                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; background-color: rgba(255, 255, 255, 0.7); padding: 10px;">
+                                            <h2 style="margin: 0;">Partnership</h2>
+                                            <span>Partnered with over 100 agents worldwide, our coverage reaches all around the globe.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
-
-
+        </div>
     </div>
+
     @include('partials._modal')
 @endsection

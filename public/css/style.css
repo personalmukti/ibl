@@ -155,10 +155,12 @@ body {
 
 .card-noboreder {
     border: none !important;
+    height: 660px;
 }
 
 .service-card {
-    height: 175px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .custom-hr {
@@ -190,16 +192,16 @@ body {
 .service-card {
     box-sizing: border-box;
     background: rgba(217, 217, 217, 0.58);
-    border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
-    border-radius: 17px;
+    border: 1px solid grey;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
 }
 
@@ -209,13 +211,14 @@ body {
 }
 
 .service-card:active {
-    transform: scale(0.95) rotateZ(1.7deg);
+    transform: scale(0.95);
 }
 
 .no-decor {
     text-decoration: none;
     border: none;
     background-color: none;
+    color: #000;
 }
 
 .about-section,
@@ -225,7 +228,7 @@ body {
 }
 
 .address {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .caro-img {
@@ -301,16 +304,15 @@ body {
 
 .partner-color {
     color: #000;
-    /* Warna isi teks
-    -webkit-text-stroke: 0.5px #fff;*/
-    /* Stroke teks pada browser berbasis Webkit (Chrome, Safari, dll.) */
+    Warna isi teks
+    -webkit-text-stroke: 0.5px #fff;
 }
 
 .glass-nav {
     background: linear-gradient(
-        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.00001),
         rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.05)
+        rgba(255, 255, 255, 0.00001)
     );
     backdrop-filter: blur(5px); /* Efek blur pada latar belakang navbar */
     border-radius: 10px;
@@ -350,4 +352,22 @@ body {
 
 .collapse-img {
     border-radius: 50px 0px 50px 0px;
+}
+
+.service-icon {
+    width: 40% !important;
+    height: auto;
+}
+
+.contact-icon{
+    width: 40px !important;
+    height: auto;
+}
+
+.about-text{
+    font-size: 14px;
+}
+
+.btn-contact{
+    width: 100% !important;
 }

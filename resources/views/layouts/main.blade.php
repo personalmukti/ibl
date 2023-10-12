@@ -19,9 +19,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
     </head>
 
-    <body>
+    <body style="background-image: url({{ asset('img/bg.jpg') }});background-size: cover;
+  background-attachment: fixed;">
         <!-- Main -->
         @yield('content')
         <!-- Main -->

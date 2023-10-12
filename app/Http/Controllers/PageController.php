@@ -32,7 +32,7 @@ class PageController extends Controller
     public function contact()
     {
         $title = 'Contact';
-        return view('contact2', compact('title'));
+        return view('contact', compact('title'));
     }
 
     public function partner()
