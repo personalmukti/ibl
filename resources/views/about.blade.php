@@ -13,7 +13,7 @@
                 <h2 class="text-center">About Us</h2>
             </div>
             <div class="row py-3">
-                <div class="card card-noboreder">
+                <div class="card mx-2">
                     <div class="card-body py-5 px-5">
                         <div class="col-12">
                             <div class="row">

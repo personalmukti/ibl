@@ -14,7 +14,7 @@
             </div>
             <div class="row py-3">
                 <div class="col-md-2">
-                    <div class="card card-noboreder">
+                    <div class="card ">
                         <div class="card-body">
                             <div class="col-12">
                                 <div class="row">
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="col-md-10">
-                    <div class="card card-noboreder">
+                    <div class="card ">
                         <div class="card-body">
                             <div class="col-12 pt-4">
                                 <div class="row align-items-center">
