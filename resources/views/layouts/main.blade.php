@@ -20,6 +20,10 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
 
     <body style="background-image: url({{ asset('img/bg.jpg') }});background-size: cover;

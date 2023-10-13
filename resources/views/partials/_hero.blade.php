@@ -50,13 +50,13 @@
         <div class="row py-3">
             <!-- Kolom 1 -->
             <div class="col-md-4 mx-auto py-2">
-                <img src="{{ asset('img/colapse1.jpg') }}" alt="welcome-img" class="img-fluid collapse-img">
+                <img src="{{ asset('img/colapse1.jpg') }}" alt="welcome-img" class="img-fluid collapse-img animate__animated animate__zoomIn">
             </div>
 
             <!-- Kolom 2 -->
-            <div class="col-md-8 mobile-center">
-                <h1 class="company-name">PT. INTERBENUA LOGISTINDO</h1>
-                <button type="button" class="btn btn-socmed about-btn" data-bs-toggle="modal"
+            <div class="col-md-8 mobile-center py-2">
+                <h1 class="company-name animate__animated animate__bounce">PT. INTERBENUA LOGISTINDO</h1>
+                <button type="button" class="btn btn-socmed about-btn animate__animated animate__zoomIn" data-bs-toggle="modal"
                     data-bs-target="#modalId">About Us</button>
             </div>
         </div>
@@ -65,7 +65,7 @@
 <!-- end of hero section -->
 
 <!-- Modal Video -->
-<div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog"
+<div class="modal fade animate__animated animate__zoomIn" id="modalId" tabindex="-1" data-bs-backdrop="true" data-bs-keyboard="false" role="dialog"
     aria-labelledby="modalTitleId" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">

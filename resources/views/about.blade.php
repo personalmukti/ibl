@@ -10,7 +10,7 @@
     <div class="about-section">
         <div class="container">
             <div class="row">
-                <h2 class="text-center">About Us</h2>
+                <h2 class="text-center animate__animated animate__slideInUp">About Us</h2>
             </div>
             <div class="row py-3">
                 <div class="card mx-2">
@@ -18,32 +18,32 @@
                         <div class="col-12">
                             <div class="row">
                                 <div class="col-md-6 py-2">
-                                    <img src="{{ asset('img/colapse1.jpg') }}" alt="about-us" class="img-fluid">
+                                    <img src="{{ asset('img/colapse1.jpg') }}" alt="about-us" class="img-fluid animate__animated animate__slideInUp">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="row py-2">
                                         <div class="col">
-                                            <p class="about-text">
+                                            <p class="about-text animate__animated animate__slideInUp">
                                                 PT INTERBENUA LOGISTINDO is a leading cargo transportation and logistics
                                                 company in Indonesia.
                                             </p>
-                                            <p class="about-text">We provide a comprehensive range of integrated cargo
+                                            <p class="about-text animate__animated animate__slideInUp">We provide a comprehensive range of integrated cargo
                                                 transportation and logistics services to meet the needs of domestic and
                                                 international customers.</p>
-                                            <p class="about-text">
+                                            <p class="about-text animate__animated animate__slideInUp">
                                                 In today's competitive and constantly evolving business environment, we must
                                                 be adaptable to changes and be proactive to meet the market. We are
                                                 constantly developing strategies and creating an efficient and effective
                                                 system to be able to exceed customer expectations.
                                             </p>
                                             <br>
-                                            <h5 class="about-title">Vision</h5>
-                                            <p class="about-text">To become most reliable global freight forwarding company in Indonesia.</p>
+                                            <h5 class="about-title animate__animated animate__slideInUp">Vision</h5>
+                                            <p class="about-text animate__animated animate__slideInUp">To become most reliable global freight forwarding company in Indonesia.</p>
                                             <br>
-                                            <h5 class="about-title">Mission</h5>
-                                            <p class="about-text">To deliver service with care.</p>
+                                            <h5 class="about-title animate__animated animate__slideInUp">Mission</h5>
+                                            <p class="about-text animate__animated animate__slideInUp">To deliver service with care.</p>
                                             <p>
-                                                <button type="button" class="btn btn-socmed about-btn"
+                                                <button type="button" class="btn btn-socmed about-btn animate__animated animate__slideInUp"
                                                     data-bs-toggle="modal" data-bs-target="#modalId">
                                                     More
                                                 </button>

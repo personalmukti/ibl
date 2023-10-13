@@ -13,7 +13,7 @@
             </div>
             <div class="row py-3">
                 <div class="col-md-6">
-                    <div class="card">
+                    <div class="card animate__animated animate__fadeInUp">
                         <div class="card-header text-center py-2">
                             <h3>Jakarta HQ</h3>
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card">
+                    <div class="card animate__animated animate__fadeInUp">
                         <div class="card-header text-center">
                             <h3>Surabaya Branch</h3>
                         </div>

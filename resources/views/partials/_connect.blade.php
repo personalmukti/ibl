@@ -1,5 +1,5 @@
 <!-- start of contact button -->
-<section class="connect">
+<section class="connect animate__animated animate__zoomIn">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
