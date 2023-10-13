@@ -371,3 +371,9 @@ body {
 .btn-contact{
     width: 100% !important;
 }
+
+.navbar-company{
+    text-transform: uppercase;
+    font-size: 20px !important;
+    color: #000;
+}

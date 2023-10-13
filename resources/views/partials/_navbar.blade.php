@@ -1,21 +1,14 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top glass-nav" style="max-width: 100%;">
     <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand" href="/">
-            <img src="{{ asset('img/logo.png') }}" alt="ibl" width="100" height="85">
-        </a>
-
-        <!-- Nama Perusahaan dan Tagline -->
-        <div class="d-none d-md-flex flex-column align-items-md-start ms-3">
-            <a class="navbar-brand" href="{{ route('homepage.index') }}">
-                <span class="navbar-text" style="font-weight: bold; text-transform: uppercase; color: black;">PT.
-                    Interbenua Logistindo</span></a>
-            <a class="navbar-brand" href="{{ route('homepage.index') }}">
-                <span class="navbar-text" style="font-style: italic; font-size: 14px; color: black;">Member of IFF
+        <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="{{ asset('img/logo.png') }}" alt="Logo" width="150" height="125" class="d-inline-block align-text-top me-2">
+                <div>
+                    <span style="font-size: 2.5rem; text-transform: uppercase;">PT. Interbenua Logistindo</span><br>
+                    <span style="font-size: 1rem; color: #000;">Member of IFF
                     (International Freight Forwarder Fellowship)</span>
+                </div>
             </a>
-
-        </div>
 
         <!-- Hamburger Menu untuk Mobile -->
         <button class="navbar-toggler order-md-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

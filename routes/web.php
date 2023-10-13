@@ -20,3 +20,4 @@ Route::get('/about', [PageController::class, 'about'])->name('homepage.about');
 Route::get('/service', [PageController::class, 'service'])->name('homepage.service');
 Route::get('/contact', [PageController::class, 'contact'])->name('homepage.contact');
 Route::get('/partner', [PageController::class, 'partner'])->name('homepage.partner');
+Route::get('/sample', [PageController::class, 'sample'])->name('homepage.sample');

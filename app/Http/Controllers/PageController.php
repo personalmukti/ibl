@@ -45,4 +45,11 @@ class PageController extends Controller
 
         return view('partner', compact('title'));
     }
+
+    public function sample()
+    {
+        $title = 'Sample';
+
+        return view('sample', compact('title'));
+    }
 }

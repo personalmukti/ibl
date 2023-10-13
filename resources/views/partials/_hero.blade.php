@@ -1,7 +1,6 @@
 <!-- start of hero section -->
-@include('partials._carousel')
 
-<section class="hero-part">
+<section class="hero-part pt-5">
     <div class="container-fluid">
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <!-- Indikator Carousel
